@@ -1,30 +1,35 @@
-# 🔐 PyPassword Generator
+# Password Generator (Streamlit)
 
-A simple yet flexible **Python password generator** that creates strong, randomized passwords using letters, numbers, and symbols.  
-This project is designed for **privacy** — passwords are generated locally and never stored or sent anywhere.
-
----
-
-## 📜 Features
-
-- Customizable number of **letters**, **numbers**, and **symbols** in your password.
-- Two difficulty modes:
-  - **Easy Mode**: Sequential characters (less secure).
-  - **Hard Mode**: Characters shuffled for maximum randomness.
-- Uses Python’s built-in `random` module for generation.
-- Password generation happens entirely on your machine — **no data is collected**.
+A simple yet flexible web-based password generator built with Python and Streamlit.  
+It creates strong, randomized passwords using letters, numbers, and symbols.  
+Passwords are generated locally in your browser session and are never stored or sent anywhere.
 
 ---
 
-## 🛠 Requirements
-
-- Python 3.x installed on your system
+## Features
+- Customizable password length (4–32 characters).
+- Options to include:
+  - Letters (a-z, A-Z)
+  - Numbers (0-9)
+  - Symbols (!@#$...)
+- Password strength checker:
+  - Weak
+  - Medium
+  - Strong
+- Secure generation using Python's `secrets` module.
+- Runs entirely on your machine — no data is collected.
 
 ---
 
-## 🚀 Usage
+## Requirements
+- Python 3.x
+- Streamlit
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/PyPassword-Generator.git
-   cd PyPassword-Generator
+---
+
+## Usage
+
+### 1. Clone this repository
+```bash
+git clone https://github.com/your-username/password-generator-streamlit.git
+cd password-generator-streamlit
